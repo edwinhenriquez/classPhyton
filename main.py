@@ -40,3 +40,21 @@ print (ininombre)
 print (nombre.upper())
 print (nombre.lower())
 print (nombre.title())
+
+# Captura de datos con If
+# x = input('Ingresa un entero, por favor: ')
+x = 15
+if x < 0:
+    x = 0 
+    print ('Negativo cambiado a cero')
+elif x == 0:
+    print ("Cero")
+elif x == 1:
+    print ("Simple")
+else:
+    print ("Mas")
+    
+# sentencia For, contando cadenas de texto
+palabras = ["Gato","Ventana","Murcielago"]
+for p in palabras:
+    print (p,len(p))
